@@ -17,5 +17,5 @@ Crear formulario de contacto que trabaje con input y textarea, validar datos y t
  ### Se ha validado que el textarea tenga más de 10 caracteres
  ### En caso contrario se muestran mensajes de errores de validación
  ![Alt text](image-2.png)
- ### Si los datos son correctos se muestra mensaje de validado
+ ### Si los datos son correctos se muestra mensaje de validación
  ![Alt text](image-3.png)
