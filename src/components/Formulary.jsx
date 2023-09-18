@@ -90,6 +90,7 @@ const Formulary = () => {
                 {errorMessage ? (
                     <p className='error'>{errorMessage}</p>
                 ): ''}
+                <textarea className="formulary_textarea" readOnly={true} defaultValue={message}></textarea>
                 <div className='formulary_container_submit'>
                     <input type='button' className='formulary_container_submit--btn' value='SUBMIT' onClick={handleClick}></input>
                     <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" className="white-rotated-icon">
