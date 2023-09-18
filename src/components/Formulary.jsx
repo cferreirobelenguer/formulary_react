@@ -9,9 +9,9 @@ const Formulary = () => {
             <form className='formulary_container'>
                 <label htmlFor='fullname' className='formulary_container--label'>Full Name</label>
                 <input className='formulary_container--input' type="text" required placeholder='Enter name'></input>
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email' className='formulary_container--label'>Email</label>
                 <input className='formulary_container--input' type="email" required placeholder='Enter Email'></input>
-                <label htmlFor='message'>Message</label>
+                <label htmlFor='message' className='formulary_container--label'>Message</label>
                 <textarea className="formulary_textarea" placeholder='Enter your comments'></textarea>
                 <div className='formulary_container_submit'>
                     <input type='button' className='formulary_container_submit--btn' value='SUBMIT'></input>
