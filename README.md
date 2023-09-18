@@ -1,6 +1,6 @@
 # ACTIVIDAD REACT CURSO FRAMEWORKS Y ENTORNOS WEB INESEM
 
-## Descripción
+## Descripción Actividad 1
 Crear formulario de contacto que trabaje con input y textarea, validar datos y trabajar recogida de datos con onChange y useState, maquetación responsive design
 
 ## Diseño y maquetación responsive
@@ -19,3 +19,7 @@ Crear formulario de contacto que trabaje con input y textarea, validar datos y t
  ![Alt text](image-2.png)
  ### Si los datos son correctos se muestra mensaje de validado
  ![Alt text](image-3.png)
+
+## Descripción actividad 2
+Crear un segundo textarea sólo de lectura que muestre los datos que se escriben en el primero
+![Alt text](image-4.png)
