@@ -5,4 +5,8 @@ Crear formulario de contacto que trabaje con input y textarea, validar datos y t
 
 ## Diseño y maquetación responsive
 
+### Vista web
+![Alt text](image-1.png)
+
+### Vista mobile
 ![Alt text](image.png)
