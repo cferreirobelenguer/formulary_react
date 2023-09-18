@@ -17,12 +17,13 @@ const Formulary = () => {
     const [showMessage, setShowMessage] = useState(false);
 
     useEffect(() => {
+        //first rendering we don´t show message and validate is false
         setShowMessage(false);
         setValidado(false);
     },[]);
 
     useEffect(() => {
-    
+        //if we have error messages we show message
         if (errorFullName || errorEmail || errorMessage) {
             setShowMessage(true);
             setValidado(false);
