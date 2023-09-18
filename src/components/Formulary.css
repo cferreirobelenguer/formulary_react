@@ -75,3 +75,14 @@
     top: 0;
     left: 0;
 }
+
+.error {
+    margin: 0;
+    color: rgb(210, 78, 34);
+    font-weight: bold;
+}
+.validate {
+    color: black;
+    margin: 0;
+    font-weight: bold;
+}
