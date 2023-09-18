@@ -1,0 +1,77 @@
+.formulary {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    max-width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+.formulary_title {
+    margin: 0;
+
+}
+
+.formulary_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.formulary_container--label {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.formulary_container--input {
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.formulary_container--input:focus{
+    border: 2px solid rgb(210, 78, 34);
+    outline: none;
+}
+
+.formulary_textarea {
+    height: 100px;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.formulary_textarea:focus {
+    border: 2px solid rgb(210, 78, 34);
+    outline: none;
+}
+
+.formulary_container_submit {
+    position: relative;
+    background-color: rgb(210, 78, 34);
+    padding: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.formulary_container_submit--btn {
+    background-color: rgb(210, 78, 34);
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.white-rotated-icon path {
+    fill: white;
+}
+
+.white-rotated-icon {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
